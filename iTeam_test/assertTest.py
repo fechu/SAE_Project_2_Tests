@@ -2,9 +2,9 @@ def main(x, y):
 	z = 0
 	if (x > y):
 		z = -1
-	elif (x <= y)
+	elif (x <= y):
 		z = -2
-	else
+	else:
 		z = func()
 	assert(z < 0)
 	return z

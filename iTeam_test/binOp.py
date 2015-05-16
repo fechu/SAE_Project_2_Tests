@@ -12,7 +12,7 @@ def main(x):
 		z = z + 1
 	if ((x << 2) >> 2 == x):
 		z = z + 1
-	if ((x**3) == 9):
+	if ((x**3) == 8):
 		z = 10
 
 	return z
