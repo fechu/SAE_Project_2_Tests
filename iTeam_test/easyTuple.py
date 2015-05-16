@@ -1,6 +1,6 @@
 def main (x, y):
 	w = func(x)
-	z = func(x)
+	z = func(y)
 	if ((w,z) == (func(x), func(y))):
 		return 1
 	else:

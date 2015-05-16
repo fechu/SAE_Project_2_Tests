@@ -1,8 +1,8 @@
 def main():
 	y = -1
-	if (Not(-y)):
+	if (not(-y)):
 		return True
 	return False
 
 def expected_results():
-	return [True]
+	return [False]

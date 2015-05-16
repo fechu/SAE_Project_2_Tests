@@ -3,7 +3,7 @@ def main(x, y):
 
 	if ((x < y) != z):
 		#x < y
-		return y >= x #False
+		return not(y >= x) #False
 	elif (x == y):
 		return x > y #False
 	elif (x > y):

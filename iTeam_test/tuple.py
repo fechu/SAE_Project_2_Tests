@@ -4,7 +4,7 @@ def main(x, y):
 		return x == 0
 	elif (z == func(x)):
 		return x == y
-	else
+	else:
 		return x != y
 
 def func(x):
